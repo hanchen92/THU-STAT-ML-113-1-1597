@@ -1,4 +1,6 @@
 # ISLP_labs
+## Book 
+<a href="https://www.statlearning.com/"><img src="https://images.squarespace-cdn.com/content/v1/5ff2adbe3fe4fe33db902812/8b373fbe-d1b4-4351-b803-0d3cd5bba1b0/ISLP_cover.png?format=1500w" title="book" width="150" border="0" /></a>
 
 ## Authors
 
