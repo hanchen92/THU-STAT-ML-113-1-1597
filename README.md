@@ -1,7 +1,4 @@
 # ISLP_labs
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Authors
 
@@ -20,41 +17,44 @@ This repo will track labs for ISLP as their source code changes.  The
 intent is that building a conda environment with
 `requirements.txt` will reproduce the results in this repo.
 
+## Quick Start
+
+### Want to play with these notebooks online without having to install anything?
+
+* <a href="https://colab.research.google.com/github/hanchen92/THU-STAT-ML-113-1-1597/blob/main/" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> (recommended)
+
+⚠ _Colab provides a temporary environment: anything you do will be deleted after a while, so make sure you download any data you care about._
+
+<details>
+
+Other services may work as well, but I have not fully tested them:
+
+* <a href="https://homl.info/kaggle3/"><img src="https://kaggle.com/static/images/open-in-kaggle.svg" alt="Open in Kaggle" /></a>
+
+* <a href="https://mybinder.org/v2/gh/hanchen92/THU-STAT-ML-113-1-1597/HEAD?filepath=%2Findex.ipynb"><img src="https://mybinder.org/badge_logo.svg" alt="Launch binder" /></a>
+
+* <a href="https://homl.info/deepnote3/"><img src="https://deepnote.com/buttons/launch-in-deepnote-small.svg" alt="Launch in Deepnote" /></a>
+
+</details>
+
+### Just want to quickly look at some notebooks, without executing any code?
+
+* <a href="https://nbviewer.jupyter.org/github/hanchen92/THU-STAT-ML-113-1-1597/blob/main/index.ipynb"><img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg" alt="Render nbviewer" /></a>
+
+* [github.com's notebook viewer](https://github.com/hanchen92/THU-STAT-ML-113-1-1597/blob/main/index.ipynb) also works but it's not ideal: it's slower, the math equations are not always displayed correctly, and large notebooks often fail to open.
+
+
+
+## Package Requirement
 To install the current version of the requirements run
 
 ```
 pip install -r https://raw.githubusercontent.com/intro-stat-learning/ISLP_labs/v2.2/requirements.txt;
 ```
 
-The labs can now be run from this directory:
-
-```
-jupyter lab Ch02-statlearning-lab.ipynb
-```
 
 
-# Zip / tarball
 
-You can download all the labs as a `.zip` or `.tar.gz` [here](https://github.com/intro-stat-learning/ISLP_labs/releases/tag/v2.2)
-
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/tibshirani"><img src="https://avatars.githubusercontent.com/u/2848609?v=4?s=100" width="100px;" alt="tibshirani"/><br /><sub><b>tibshirani</b></sub></a><br /><a href="https://github.com/intro-stat-learning/ISLP_labs/commits?author=tibshirani" title="Code">💻</a> <a href="#content-tibshirani" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://web.stanford.edu/~hastie/"><img src="https://avatars.githubusercontent.com/u/13293253?v=4?s=100" width="100px;" alt="trevorhastie"/><br /><sub><b>trevorhastie</b></sub></a><br /><a href="https://github.com/intro-stat-learning/ISLP_labs/commits?author=trevorhastie" title="Code">💻</a> <a href="#content-trevorhastie" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/danielawitten"><img src="https://avatars.githubusercontent.com/u/12654191?v=4?s=100" width="100px;" alt="danielawitten"/><br /><sub><b>danielawitten</b></sub></a><br /><a href="https://github.com/intro-stat-learning/ISLP_labs/commits?author=danielawitten" title="Code">💻</a> <a href="#content-danielawitten" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="http://statweb.stanford.edu/~jtaylo"><img src="https://avatars.githubusercontent.com/u/341611?v=4?s=100" width="100px;" alt="Jonathan Taylor"/><br /><sub><b>Jonathan Taylor</b></sub></a><br /><a href="https://github.com/intro-stat-learning/ISLP_labs/commits?author=jonathan-taylor" title="Code">💻</a> <a href="#content-jonathan-taylor" title="Content">🖋</a></td>
-    </tr>
-  </tbody>
-</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
